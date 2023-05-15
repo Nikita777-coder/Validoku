@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "733BEA37-4166-448F-9701-A7F530B93387"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D1C0E11-6FEE-4FF8-A85E-E4EB4B9CF430"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/menu/Button.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "makeButtonStyle()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "639B4885-F206-4CCE-B4E8-F1E955751BE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/menu/Button.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "160"
+            endingLineNumber = "160"
+            landmarkName = "makeButtonStyle()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE754E1E-E24D-4593-8F6A-F113EDB91272"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/button/SettingsButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "makeDesign()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D94C201-6CA6-49F7-9589-720737977A77"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/button/menu/NewGame.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "getTitle()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E608EBD6-7E85-41F0-8E40-08C940D0922C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "164"
+            endingLineNumber = "164"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E608EBD6-7E85-41F0-8E40-08C940D0922C - b28f74d327d4c32e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.init() -&gt; Validoku.SudokuGenerator"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "E608EBD6-7E85-41F0-8E40-08C940D0922C - b28f74d327d4c254"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.init() -&gt; Validoku.SudokuGenerator"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "E608EBD6-7E85-41F0-8E40-08C940D0922C - b28f74d327d4c2f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.init() -&gt; Validoku.SudokuGenerator"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "164"
+                  endingLineNumber = "164"
+                  offsetFromSymbolStart = "240">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E47882BC-007B-4140-8654-C4ED51D6D22E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "generate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E47882BC-007B-4140-8654-C4ED51D6D22E - 5a76a7dc6093f466"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.generate() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "E47882BC-007B-4140-8654-C4ED51D6D22E - 5a76a7dc6093f51c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.generate() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "E47882BC-007B-4140-8654-C4ED51D6D22E - 5a76a7dc6093f5b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.generate() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "292">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A7908C7-18D8-4BC3-B209-DB03844EB90E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "generate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5A7908C7-18D8-4BC3-B209-DB03844EB90E - 5a76a7dc6093f498"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.generate() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "5A7908C7-18D8-4BC3-B209-DB03844EB90E - 5a76a7dc6093f55e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuGenerator.generate() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuTable.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "552">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F7DB8D5-DB24-4C16-AA38-318FF529BF60"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "insertRow(rowInd:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCFAA2AB-6A85-4883-B260-D6FD02F507F7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65DEA116-1685-4590-BFA5-BC7F3093BD01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "generate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27B5C9FC-A3FB-4D24-B4FF-96B00CB688A1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "generate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0075F72D-1A8B-4267-9BB4-B650EC24A529"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "generate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "49BDD0E2-944A-4B19-A847-50746C37AC62"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "generate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B38A532-5195-40C8-9130-DCB70E82E41F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "generate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE33CFCE-206B-4256-89FD-399BC852BD94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "insertRow(rowInd:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B4FEED4-97FF-4E2C-BBB3-EA2043C23D18"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "insertRow(rowInd:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90541FC4-6CBC-4315-9DD2-068CA7AF0E94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "insertRow(rowInd:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38DF9B9F-566C-4442-89B2-67D727EA0C5A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "insertRow(rowInd:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6A45EE2-FAE7-44C3-B361-1FC410E1A5BC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/Game.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B6A45EE2-FAE7-44C3-B361-1FC410E1A5BC - 40e53277dc832b63"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.Game.viewDidLoad() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/Game.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "852">
+               </Location>
+               <Location
+                  uuid = "B6A45EE2-FAE7-44C3-B361-1FC410E1A5BC - 40e53277dc832b02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.Game.viewDidLoad() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/Game.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6083F76-5419-42AA-AEF0-7FEFC105ED72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/mode_selection/ModeSelection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "addFirstFourMenuButtons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40E9066A-FBE2-45BF-BDB9-8A1F654EE2F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/mode_selection/ModeSelection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "shableButtonPressed()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40E9066A-FBE2-45BF-BDB9-8A1F654EE2F0 - a5d0d62733e6b1c7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.ModeSelection.goToSettings() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/mode_selection/ModeSelection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "40E9066A-FBE2-45BF-BDB9-8A1F654EE2F0 - a5d0d62733e6b1e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.ModeSelection.goToSettings() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/mode_selection/ModeSelection.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "200"
+                  endingLineNumber = "200"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E100BA07-D061-445A-8E48-66C48BACDD3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/mode_selection/ModeSelection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "shableButtonPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7FD4D56-4740-4AEB-848F-33D6249C1C7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/sudoku_cell/sudoku_cell_notes/SudokuCellNotes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "addNotesToCollection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60A85CB1-D7D2-445C-BA89-DF2593855DE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/sudoku_cell/sudoku_cell_notes/SudokuCellNotes.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "addNotesToCollection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "138F57A3-F226-4DDC-B872-33467DDC6C99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/sudoku_cell/SudokuCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "init(parent:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "138F57A3-F226-4DDC-B872-33467DDC6C99 - 23b339d1084540f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.init(parent: __C.UIView) -&gt; Validoku.SudokuCell"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/sudoku_cell/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "138F57A3-F226-4DDC-B872-33467DDC6C99 - 23b339d1084540f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.init(parent: __C.UIView) -&gt; Validoku.SudokuCell"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/sudoku_cell/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E52F4DF1-5654-42FB-8BAE-71569D6DE75A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/TestViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E52F4DF1-5654-42FB-8BAE-71569D6DE75A - f1990b5a8bd2dfc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.TestViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/TestViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "276">
+               </Location>
+               <Location
+                  uuid = "E52F4DF1-5654-42FB-8BAE-71569D6DE75A - f1990b5a8bd2dfc6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.TestViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/TestViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C7217E02-0259-4D4C-91F9-C1125D7A9186"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "addOrDeleteNoteNumber(number:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AE16BA3-A0BA-412F-BCA6-45B7D816B2AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
+            landmarkName = "addOrDeleteNoteNumber(number:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1AE16BA3-A0BA-412F-BCA6-45B7D816B2AA - 57fe6575bcc24c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.addNoteNumber(number: Swift.Int) -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "3196">
+               </Location>
+               <Location
+                  uuid = "1AE16BA3-A0BA-412F-BCA6-45B7D816B2AA - 57fe6575bcc24c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.addNoteNumber(number: Swift.Int) -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "2732">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C90B0AFA-3DFE-4C5B-91FC-1A118F1D65F3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "addOrDeleteNoteNumber(number:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C90B0AFA-3DFE-4C5B-91FC-1A118F1D65F3 - 57fe6575bcc24c39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.addNoteNumber(number: Swift.Int) -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "2896">
+               </Location>
+               <Location
+                  uuid = "C90B0AFA-3DFE-4C5B-91FC-1A118F1D65F3 - 57fe6575bcc24c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.addNoteNumber(number: Swift.Int) -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "3064">
+               </Location>
+               <Location
+                  uuid = "C90B0AFA-3DFE-4C5B-91FC-1A118F1D65F3 - 57fe6575bcc24c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.addNoteNumber(number: Swift.Int) -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "3048">
+               </Location>
+               <Location
+                  uuid = "C90B0AFA-3DFE-4C5B-91FC-1A118F1D65F3 - 57fe6575bcc24c06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.SudokuCell.addNoteNumber(number: Swift.Int) -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/SudokuCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "3196">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF29812A-4090-4C6A-BEBC-9D9781FFDE9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "addOrDeleteNoteNumber(number:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E9522A1-6A20-432A-8DCF-C0D46569CB1E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/mode_selection/ModeSelection.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "176"
+            endingLineNumber = "176"
+            landmarkName = "burnedButtonPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AAED021-E8A3-48DB-9C73-7066FC06B701"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "249"
+            endingLineNumber = "249"
+            landmarkName = "generatePositions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E38165E6-20DF-4421-B63C-32A931E8A5B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "generatePositions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A69B31C2-9607-4679-85A2-3CC3EE47E7BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "generatePare()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7C65AB4-EA75-4CD9-BBB6-CA20BFAAD8BB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/SudokuTable.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "generatePositions()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "33AF25CE-D00E-42C8-8E44-4EA9A9085048"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/TimeCounter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3CC1111-3018-4D7A-8A39-78CA09CDB9D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/button/ButtonWithImage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "setButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1BE6530-FB20-444E-B9A1-ADBFD749B9D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/button/ButtonWithImage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "setButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2184C816-6037-4E79-8BC5-CC3A3CC97F90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/Game.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "setupSettings()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2184C816-6037-4E79-8BC5-CC3A3CC97F90 - 9a686a44eb116633"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Validoku.Game.setupSettings() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/Game.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "2184C816-6037-4E79-8BC5-CC3A3CC97F90 - 4325370a6a07c181"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 (Validoku.Game) -&gt; () -&gt; () in Validoku.Game.setupSettings() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/Game.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "2184C816-6037-4E79-8BC5-CC3A3CC97F90 - 87411cd5d3ab62e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #2 () -&gt; () in implicit closure #1 (Validoku.Game) -&gt; () -&gt; () in Validoku.Game.setupSettings() -&gt; ()"
+                  moduleName = "Validoku"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Xiaomi/Desktop/%D0%92%D0%A8%D0%AD/%D0%BA%D1%83%D1%80%D1%81/2/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20(%D0%B2%D0%B0%D0%BB%D0%B8%D0%B4%D0%BD%D0%BE%D0%B5%20%D1%81%D1%83%D0%B4%D0%BE%D0%BA%D1%83%20%D0%BD%D0%B0%20ios)/App/Validoku/validoku/game/Game.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BB690A11-4F16-4446-B7B5-9B364FF71AB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/Game.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "setupHintButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DC0F6CD-78DA-4957-831E-32658D1A187F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/button/ButtonWithImage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "addHintCounter()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65E49F83-916D-40FD-83EE-44AD7C93387F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/game/Game.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "setupValidokuDigits()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5678107E-121A-487D-9825-784A224B00D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "validoku/button/title/TitleMenuButton.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(title:parent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

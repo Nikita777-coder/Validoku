@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "af4be924ad984cf4d16f4ae4df424e79a443d435",
+        "version" : "7.6.2"
+      }
+    },
+    {
+      "identity" : "uiview-borders-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/aaronn/UIView-Borders-Swift",
+      "state" : {
+        "revision" : "f7496f79c92134952cb692ad1faa147805f6048d",
+        "version" : "1.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
