@@ -171,11 +171,12 @@ class ValidokuGenerator {
 
 
 class ValidokuTable: UIView {
-    private var count = 0
+    private var count = 25
     private let solution: [[Int]];
     private var userValidokuTable: [[ValidokuCell]]
     private var parent: UIView
     private let gameMode: Modes
+    private var secondsCounter = 0
     private static var collectionView: UIStackView = UIStackView()
     
     private func userSudokuTableToUiViewCollection() {
@@ -239,25 +240,31 @@ class ValidokuTable: UIView {
         return pair;
     }
     
-    private func generatePositions() -> [(Int, Int)] {
-        var count = 0;
-        
-        switch gameMode {
-        case .Rare:
-            count = Int.random(in: 30...40)
-        case .Medium:
-            count = Int.random(in: 25...29)
-        case .WellDone:
-            count = Int.random(in: 19...24)
-        case .Burned:
-            count = Int.random(in: 15...19)
-        case .PVP:
-            count = Int.random(in: 15...40)
-        case .Shable:
-            count = Int.random(in: 15...40)
-        case .Custom:
-            count = self.count
+    private func generateCountOfPairs(_ gameMode: Modes) -> Int {
+            var count = 0;
+
+            switch gameMode {
+            case .PVP:
+                count = Int.random(in: 15...40)
+            case .Shable:
+                count = generateCountOfPairs([Modes.Rare, Modes.Medium, Modes.WellDone, Modes.Burned].randomElement()!)
+            case .Custom:
+                count = self.count
+            case .Rare:
+                count = Int.random(in: 30...40)
+            case .Medium:
+                count = Int.random(in: 25...29)
+            case .WellDone:
+                count = Int.random(in: 19...24)
+            case .Burned:
+                count = Int.random(in: 15...19)
+            }
+
+            return count
         }
+    
+    private func generatePositions() -> [(Int, Int)] {
+        let count = generateCountOfPairs(gameMode)
         
         var pairs: [(Int, Int)] = [];
         
@@ -275,6 +282,7 @@ class ValidokuTable: UIView {
     }
     
     private func setupUserTable() {
+        userValidokuTable = []
         let positions = generatePositions();
         
         for _ in 0...8 {
@@ -304,12 +312,30 @@ class ValidokuTable: UIView {
         userSudokuTableToUiViewCollection();
     }
     
-    private func setupElements() {
-        addSudokuTable()
+    private func startTick() {
+            Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(update), userInfo: nil, repeats: true)
     }
     
+    @objc func update() {
+        secondsCounter += 1
+        
+        if secondsCounter % 15 == 0 && secondsCounter != 0 {
+            setupUserTable()
+            userSudokuTableToUiViewCollection()
+            reloadInputViews()
+        }
+    }
+    
+    private func setupElements() {
+            addSudokuTable()
+
+            // need to add functionality with user digits (if cell has user digit then generated positions mustn't generate there)
+            if gameMode == .Shable {
+                startTick()
+            }
+        }
+    
     init(parent: UIView, gameMode: Modes, count: Int = 0) {
-        self.count = count
         userValidokuTable = []
         self.parent = parent
         self.gameMode = gameMode
