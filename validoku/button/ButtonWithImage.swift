@@ -10,7 +10,7 @@ final public class ButtonWithImage : UIView, Button {
 
     init(url: String) {
         self.url = url
-        self.button = UIButton()
+        self.button = UIButton(type: .system)
         
         super.init(frame: .zero)
         
@@ -20,7 +20,7 @@ final public class ButtonWithImage : UIView, Button {
     init(url: String, action: (() -> Void)?) {
         self.url = url
         self.action = action
-        self.button = UIButton()
+        self.button = UIButton(type: .system)
         
         super.init(frame: .zero)
         

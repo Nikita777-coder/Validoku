@@ -12,7 +12,7 @@ public class TitleButton : UIView, Button {
     init(title: TitleType, parent: UIView) {
         self.title = title
         self.parent = parent
-        button = UIButton()
+        button = UIButton(type: .system)
         super.init(frame: .zero)
         makeDesign()
     }

@@ -30,7 +30,7 @@ enum BorderSide {
  If there was erase button pressed in cell then all notes will erase
  */
 
-class ValidokuCell : UICollectionViewCell {
+final class ValidokuCell : UICollectionViewCell {
     private let parent: UIView
     private let title: UILabel
     private let label: UILabel
@@ -42,6 +42,7 @@ class ValidokuCell : UICollectionViewCell {
     private var leftBorder: UIView?
     private var bottomBorder: UIView?
     private var topBorder: UIView?
+    private var cellMode: ValidokuCellMode = .None
     
     private func makeBackgroundColor(mode: ValidokuCellMode) {
         switch mode {
@@ -160,12 +161,13 @@ class ValidokuCell : UICollectionViewCell {
         }
     }
     
-    init() {
+    override init(frame: CGRect) {
         parent = UIView()
         title = UILabel()
         label = UILabel()
-        
         super.init(frame: .zero)
+        
+        makeDesign()
     }
     
     init(parent: UIView) {
@@ -245,6 +247,7 @@ class ValidokuCell : UICollectionViewCell {
     }
     
     public func changeMode(mode: ValidokuCellMode) {
+        cellMode = mode
         makeBackgroundColor(mode: mode);
     }
     
@@ -255,6 +258,10 @@ class ValidokuCell : UICollectionViewCell {
     
     public func changeBorderWidth(border: BorderSide) {
         setupBorder(border: border)
+    }
+    
+    public func getMode() -> ValidokuCellMode {
+        return cellMode
     }
     
     /*@objc func cellTaped() {

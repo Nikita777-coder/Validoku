@@ -177,12 +177,18 @@ class ValidokuTable: UIView {
     private var parent: UIView
     private let gameMode: Modes
     private var secondsCounter = 0
-    private static var collectionView: UIStackView = UIStackView()
+    private let validokuView: UICollectionView = {
+        return UICollectionView(
+            frame: .zero,
+            collectionViewLayout: UICollectionViewFlowLayout()
+        )
+    }()
+    private var cellCounter = 0
     
     private func userSudokuTableToUiViewCollection() {
         setWidth(360)
-        setHeight(360)
-        var rowCounter = 0
+        setHeight(353)
+        /*var rowCounter = 0
         var stackStack: [UIStackView] = []
         
         for arrCells in userValidokuTable {
@@ -225,7 +231,7 @@ class ValidokuTable: UIView {
         ValidokuTable.collectionView.distribution = .fill
         
         addSubview(ValidokuTable.collectionView)
-        ValidokuTable.collectionView.pin(to: self)
+        ValidokuTable.collectionView.pin(to: self)*/
     }
     
     private func generatePare() -> (Int, Int) {
@@ -296,7 +302,10 @@ class ValidokuTable: UIView {
         }
         
         for pair in positions {
-            userValidokuTable[pair.0][pair.1].digit(digit: solution[pair.0][pair.1], mode: .System)
+            let arr = [[pair.0, pair.1]]
+            let indexPaths = arr.map { IndexPath(item: $0[1], section: $0[0]) }
+
+            /*userValidokuTable[pair.0][pair.1].digit(digit: solution[pair.0][pair.1], mode: .System)*/
         }
     }
     
@@ -327,13 +336,19 @@ class ValidokuTable: UIView {
     }
     
     private func setupElements() {
-            addSudokuTable()
+        addSudokuTable()
+        validokuView.register(ValidokuCell.self, forCellWithReuseIdentifier: ValidokuCell.identifier)
+        self.addSubview(validokuView)
+        validokuView.pin(to: self)
+        validokuView.backgroundColor = .black
+        validokuView.dataSource = self
+        validokuView.delegate = self
 
-            // need to add functionality with user digits (if cell has user digit then generated positions mustn't generate there)
-            if gameMode == .Shable {
-                startTick()
-            }
+        // need to add functionality with user digits (if cell has user digit then generated positions mustn't generate there)
+        if gameMode == .Shable {
+            startTick()
         }
+    }
     
     init(parent: UIView, gameMode: Modes, count: Int = 0) {
         userValidokuTable = []
@@ -379,40 +394,79 @@ extension Array<(Int, Int)> {
     }
 }
 
-/*extension ValidokuTable: UICollectionViewDataSource {
+extension ValidokuTable: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return userValidokuTable.count
+        return 81
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        var cell: ValidokuCell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! ValidokuCell
         
-        let column = indexPath.item % 9
-        let row = indexPath.item / 9
-        cell = userValidokuTable[row][column]
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ValidokuCell.identifier, for: indexPath) as? ValidokuCell
+        print(String(format: "%d\n", cellCounter))
+        if (cellCounter < 81) {
+            if (cellCounter / 9) % 3 == 0 {
+                cell?.changeBorderWidth(border: .Top)
+            }
+            
+            if cellCounter % 3 == 2 {
+                cell?.changeBorderWidth(border: .Right)
+            }
+            
+            if cellCounter % 9 == 0 {
+                cell?.changeBorderWidth(border: .Left)
+            }
+            
+            if cellCounter / 9 == 8 {
+                cell?.changeBorderWidth(border: .Bottom)
+            }
+        }
         
-        let button = UIButton()
-        button.addTarget(self, action: #selector(buttonTaped), for: .touchUpInside)
-
-        cell.addSubview(button)
+        cellCounter += 1
         
-        return cell
+        return cell ?? UICollectionViewCell()
     }
     
-    @objc func buttonTaped(collectionView: UICollectionView, cell: ValidokuCell) {
+    /*@objc func buttonTaped(collectionView: UICollectionView, cell: ValidokuCell) {
+        collectionView
+        for item in userValidokuTable {
+            for el in item {
+                el.changeMode(mode: .None)
+                
+            }
+        }
         cell.changeMode(mode: .Selected)
         
+    }*/
+}
+
+extension ValidokuTable: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        // здесь редачится св-ва ячейки
         
+        for indexPath in collectionView.indexPathsForVisibleItems {
+            let cell = collectionView.cellForItem(at: indexPath) as? ValidokuCell
+            
+            if cell?.getMode() == .Selected {
+                cell?.changeMode(mode: .None)
+            }
+        }
+        
+        let cell1 = collectionView.cellForItem(at: indexPath) as? ValidokuCell
+        cell1?.changeMode(mode: .Selected)
     }
 }
 
 extension ValidokuTable: UICollectionViewDelegateFlowLayout {
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath)
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! ValidokuCell
-        
-        cell.changeMode(mode: .Selected)
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let size = (UIScreen.main.bounds.width - 40) / 9
+        return CGSize(width: size, height: size)
     }
-}*/
-
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+}

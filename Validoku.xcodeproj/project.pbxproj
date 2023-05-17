@@ -10,11 +10,7 @@
 		C11A2FFD292304D2007A7619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A2FFC292304D2007A7619 /* AppDelegate.swift */; };
 		C11A2FFF292304D2007A7619 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A2FFE292304D2007A7619 /* SceneDelegate.swift */; };
 		C11A3006292304D4007A7619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11A3005292304D4007A7619 /* Assets.xcassets */; };
-		C11A301C292D7393007A7619 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A301B292D7393007A7619 /* NotesView.swift */; };
 		C11A301F292D73FF007A7619 /* UIView_Pin.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A301E292D73FF007A7619 /* UIView_Pin.swift */; };
-		C11A3021292D744B007A7619 /* AddNoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A3020292D744B007A7619 /* AddNoteCell.swift */; };
-		C11A3023292D74B4007A7619 /* ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A3022292D74B4007A7619 /* ColorPallete.swift */; };
-		C11A3025292D74E5007A7619 /* ShortNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11A3024292D74E5007A7619 /* ShortNote.swift */; };
 		C128B47929B76D3700992C85 /* ModeSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C128B47829B76D3700992C85 /* ModeSelection.swift */; };
 		C128B49129B8942700992C85 /* ButtonWithStrAndActi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C128B49029B8942700992C85 /* ButtonWithStrAndActi.swift */; };
 		C128B49529B8A75500992C85 /* TitleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C128B49429B8A75500992C85 /* TitleMenuButton.swift */; };
@@ -28,17 +24,14 @@
 		C13E5E482A044A6900ABFFE3 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13E5E472A044A6900ABFFE3 /* Button.swift */; };
 		C15F2CBE2A0AA7F4009EFB94 /* TitleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F2CBD2A0AA7F4009EFB94 /* TitleType.swift */; };
 		C15F2CC22A0BB610009EFB94 /* ValidokuSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F2CC12A0BB610009EFB94 /* ValidokuSettings.swift */; };
-		C1ABE5E52940F91A005BAB38 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE5E42940F91A005BAB38 /* NewsViewController.swift */; };
-		C1ABE5E72940FAE3005BAB38 /* NewsBiewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE5E62940FAE3005BAB38 /* NewsBiewController2.swift */; };
-		C1ABE5EA2940FB93005BAB38 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE5E92940FB93005BAB38 /* News.swift */; };
-		C1ABE5EC2940FBE8005BAB38 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE5EB2940FBE8005BAB38 /* NewView.swift */; };
-		C1ABE5EE2940FC91005BAB38 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE5ED2940FC91005BAB38 /* ApiService.swift */; };
+		C1D29B342A14978A00BF0AAB /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D29B332A14978A00BF0AAB /* TestViewController.swift */; };
 		C1DB503729FE82DC0018D2E4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB503629FE82DC0018D2E4 /* Game.swift */; };
 		C1DB503929FE9D4C0018D2E4 /* ValidokuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB503829FE9D4C0018D2E4 /* ValidokuCell.swift */; };
 		C1DDFBE82A0D2B5C0097CCE7 /* ErrorCounterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDFBE72A0D2B5C0097CCE7 /* ErrorCounterLabel.swift */; };
 		C1DDFBEA2A0D30C30097CCE7 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DDFBE92A0D30C30097CCE7 /* TimeCounter.swift */; };
 		C1F08A7D29EEC9F300754BFF /* ValidokuTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F08A7C29EEC9F300754BFF /* ValidokuTable.swift */; };
 		C1F08A8929EEF0C700754BFF /* UIViewBordersSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C1F08A8829EEF0C700754BFF /* UIViewBordersSwift */; };
+		C1F165D92A13FA5F00AD65D5 /* ValidokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1F165D82A13FA5F00AD65D5 /* ValidokuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +50,7 @@
 		C11A2FFE292304D2007A7619 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C11A3005292304D4007A7619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C11A300A292304D4007A7619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C11A301B292D7393007A7619 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		C11A301E292D73FF007A7619 /* UIView_Pin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Pin.swift; sourceTree = "<group>"; };
-		C11A3020292D744B007A7619 /* AddNoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteCell.swift; sourceTree = "<group>"; wrapsLines = 0; };
-		C11A3022292D74B4007A7619 /* ColorPallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallete.swift; sourceTree = "<group>"; };
-		C11A3024292D74E5007A7619 /* ShortNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortNote.swift; sourceTree = "<group>"; };
 		C128B47829B76D3700992C85 /* ModeSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeSelection.swift; sourceTree = "<group>"; };
 		C128B49029B8942700992C85 /* ButtonWithStrAndActi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithStrAndActi.swift; sourceTree = "<group>"; };
 		C128B49429B8A75500992C85 /* TitleMenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleMenuButton.swift; sourceTree = "<group>"; };
@@ -74,17 +63,14 @@
 		C13E5E472A044A6900ABFFE3 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		C15F2CBD2A0AA7F4009EFB94 /* TitleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleType.swift; sourceTree = "<group>"; };
 		C15F2CC12A0BB610009EFB94 /* ValidokuSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidokuSettings.swift; sourceTree = "<group>"; };
-		C1ABE5E42940F91A005BAB38 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		C1ABE5E62940FAE3005BAB38 /* NewsBiewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsBiewController2.swift; sourceTree = "<group>"; };
-		C1ABE5E92940FB93005BAB38 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
-		C1ABE5EB2940FBE8005BAB38 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
-		C1ABE5ED2940FC91005BAB38 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		C1D29B332A14978A00BF0AAB /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		C1DB503629FE82DC0018D2E4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		C1DB503829FE9D4C0018D2E4 /* ValidokuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidokuCell.swift; sourceTree = "<group>"; };
 		C1DDFBE72A0D2B5C0097CCE7 /* ErrorCounterLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCounterLabel.swift; sourceTree = "<group>"; };
 		C1DDFBE92A0D30C30097CCE7 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		C1E8BF272A07A6360013780F /* ValidokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1F08A7C29EEC9F300754BFF /* ValidokuTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidokuTable.swift; sourceTree = "<group>"; };
+		C1F165D82A13FA5F00AD65D5 /* ValidokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidokuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,40 +114,19 @@
 		C11A2FFB292304D2007A7619 /* validoku */ = {
 			isa = PBXGroup;
 			children = (
+				C1F165D82A13FA5F00AD65D5 /* ValidokuViewController.swift */,
 				C13E5E462A0449AD00ABFFE3 /* button */,
 				C11A301E292D73FF007A7619 /* UIView_Pin.swift */,
 				C128B4A729B934FD00992C85 /* Menu.swift */,
 				C15F2CBC2A0AA727009EFB94 /* mode_selection */,
 				C1DB503529FE82BF0018D2E4 /* game */,
-				C1ABE5E82940FB20005BAB38 /* Models */,
-				C11A301D292D73E1007A7619 /* View */,
-				C11A301A292D7312007A7619 /* Controller */,
 				C11A2FFC292304D2007A7619 /* AppDelegate.swift */,
 				C11A2FFE292304D2007A7619 /* SceneDelegate.swift */,
 				C11A3005292304D4007A7619 /* Assets.xcassets */,
 				C11A300A292304D4007A7619 /* Info.plist */,
-				C1ABE5ED2940FC91005BAB38 /* ApiService.swift */,
+				C1D29B332A14978A00BF0AAB /* TestViewController.swift */,
 			);
 			path = validoku;
-			sourceTree = "<group>";
-		};
-		C11A301A292D7312007A7619 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C11A301B292D7393007A7619 /* NotesView.swift */,
-				C1ABE5E42940F91A005BAB38 /* NewsViewController.swift */,
-				C1ABE5E62940FAE3005BAB38 /* NewsBiewController2.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		C11A301D292D73E1007A7619 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C11A3022292D74B4007A7619 /* ColorPallete.swift */,
-				C11A3020292D744B007A7619 /* AddNoteCell.swift */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		C131D4D62A0FC468004A65D9 /* validoku_digits */ = {
@@ -209,16 +174,6 @@
 				C1F08A7C29EEC9F300754BFF /* ValidokuTable.swift */,
 			);
 			path = validoku_table;
-			sourceTree = "<group>";
-		};
-		C1ABE5E82940FB20005BAB38 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				C11A3024292D74E5007A7619 /* ShortNote.swift */,
-				C1ABE5E92940FB93005BAB38 /* News.swift */,
-				C1ABE5EB2940FBE8005BAB38 /* NewView.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		C1DB503529FE82BF0018D2E4 /* game */ = {
@@ -343,20 +298,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15F2CBE2A0AA7F4009EFB94 /* TitleType.swift in Sources */,
-				C1ABE5E72940FAE3005BAB38 /* NewsBiewController2.swift in Sources */,
-				C11A3023292D74B4007A7619 /* ColorPallete.swift in Sources */,
-				C11A3021292D744B007A7619 /* AddNoteCell.swift in Sources */,
 				C11A301F292D73FF007A7619 /* UIView_Pin.swift in Sources */,
 				C128B47929B76D3700992C85 /* ModeSelection.swift in Sources */,
 				C11A2FFD292304D2007A7619 /* AppDelegate.swift in Sources */,
-				C1ABE5EA2940FB93005BAB38 /* News.swift in Sources */,
-				C1ABE5EE2940FC91005BAB38 /* ApiService.swift in Sources */,
 				C128B4A029B8BA0900992C85 /* Modes.swift in Sources */,
 				C13E5E482A044A6900ABFFE3 /* Button.swift in Sources */,
 				C1DB503929FE9D4C0018D2E4 /* ValidokuCell.swift in Sources */,
-				C11A301C292D7393007A7619 /* NotesView.swift in Sources */,
-				C1ABE5E52940F91A005BAB38 /* NewsViewController.swift in Sources */,
+				C1D29B342A14978A00BF0AAB /* TestViewController.swift in Sources */,
 				C1DDFBEA2A0D30C30097CCE7 /* TimeCounter.swift in Sources */,
+				C1F165D92A13FA5F00AD65D5 /* ValidokuViewController.swift in Sources */,
 				C1DB503729FE82DC0018D2E4 /* Game.swift in Sources */,
 				C128B49129B8942700992C85 /* ButtonWithStrAndActi.swift in Sources */,
 				C15F2CC22A0BB610009EFB94 /* ValidokuSettings.swift in Sources */,
@@ -366,8 +316,6 @@
 				C128B4A829B934FD00992C85 /* Menu.swift in Sources */,
 				C1F08A7D29EEC9F300754BFF /* ValidokuTable.swift in Sources */,
 				C1DDFBE82A0D2B5C0097CCE7 /* ErrorCounterLabel.swift in Sources */,
-				C1ABE5EC2940FBE8005BAB38 /* NewView.swift in Sources */,
-				C11A3025292D74E5007A7619 /* ShortNote.swift in Sources */,
 				C131D4D32A0FC1DB004A65D9 /* ValidokuDigits.swift in Sources */,
 				C11A2FFF292304D2007A7619 /* SceneDelegate.swift in Sources */,
 			);
